@@ -1,1 +1,69 @@
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.user
+*.userprefs
+*.db
+
+# Compiled Object / Library / Executable Files
+*.obj
+*.o
+*.lo
+*.slo
+*.gch
+*.pch
+*.lib
+*.a
+*.lai
+*.la
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+*.ipa
+
+# Engine-Generated Project Files
+*.xcodeproj
+*.xcworkspace
+
+# Unreal Engine - Build Artifacts
+Binaries/
+Build/
+Intermediate/
+DerivedDataCache/
 Saved/
+.vscode/
+
+# Auto-saved assets
+*.autosave
+*_BuiltData.uasset
+
+# Crash Reports, Logs, and Temp Files
+*.log
+*.tmp
+*.bak
+*.old
+
+# Plugins - Build Artifacts
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Precompiled Assets (if you use a SourceArt folder)
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# Whitelist Important Files
+!Build/**/*.ico
+!Build/*/PakBlacklist*.txt
+
+# Optional - Ignore Generated Configs
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditor.ini
+Config/DefaultUser.ini
